@@ -10,7 +10,7 @@ class Third
         un=sc.next();
         System.out.println("enter the password");
         pwd=sc.next();
-        if((un.equals("160030959")&&pwd.equals("rajanithin"))||(un.equals("160030665")&&pwd.equals("bhuvana"))||(un.equals("160030221")&&pwd.equals("himaja")))
+        if(un.equals("160030959") && pwd.equals("rajanithin"))
         {
             System.out. println("you have successfully logged in");
             nit2();
